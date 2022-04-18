@@ -1,5 +1,7 @@
 import 'package:cinemy/movies.dart';
 import 'package:cinemy/text.dart';
+import 'package:cinemy/toprated.dart';
+import 'package:cinemy/tv.dart';
 import 'package:flutter/material.dart';
 import 'package:tmdb_api/tmdb_api.dart';
 
@@ -68,6 +70,8 @@ class _HomeState extends State<Home> {
       backgroundColor: Colors.black,
       body: ListView(
         children: [
+          TV(tvShows: popularShows),
+          TopRated(topRatedList: topRated),
           TrendingMovies(trending: trendingMovie),
         ],
       ),
