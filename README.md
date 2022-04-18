@@ -1,6 +1,17 @@
 # cinemy
 
-Movie application build using official TMDB API
+Movie application build using official TMDB API , 
+Currently showing all the top rated tv shows , top rated movies , & treding movies along with 
+poster images , ratings , description page etc 🔥
+
+SnapShots to look 🡻🡻
+
+![2](https://user-images.githubusercontent.com/85099922/163788283-4959207b-b8bc-4fc7-b854-25323eda1d1c.png)
+
+![3](https://user-images.githubusercontent.com/85099922/163788288-d71d3c94-be81-423c-86ac-688a1535926a.png)
+
+
+
 
 ## Getting Started
 
