@@ -1,3 +1,5 @@
+import 'package:cinemy/movies.dart';
+import 'package:cinemy/text.dart';
 import 'package:flutter/material.dart';
 import 'package:tmdb_api/tmdb_api.dart';
 
@@ -63,9 +65,20 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
+      body: ListView(
+        children: [
+          TrendingMovies(trending: trendingMovie),
+        ],
+      ),
       appBar: AppBar(
-        title: Center(child: Text('Cinemy')),
-        backgroundColor: Colors.green,
+        title: Center(
+            child: Textchange(
+          fontSize: 30,
+          color: Colors.white,
+          text: 'Cinemy',
+        )),
+        backgroundColor: Colors.transparent,
         elevation: 0,
       ),
     );
