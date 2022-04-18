@@ -1,6 +1,6 @@
 # cinemy
 
-Movie application built using official TMDB API
+Movie application build using official TMDB API
 
 ## Getting Started
 
